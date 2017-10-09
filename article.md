@@ -1,5 +1,6 @@
 ---
 title: Title McTitleface
+runhead: "Appears top left on anonymous PDF"
 author: |
 	Author McAuthorface[^1]
 
@@ -7,14 +8,15 @@ author: |
 date: "October 7, 2017"
 thanks: "Suggestions for improvements can be sent to Author McAuthorface author.mcauthorface@thebureau.com."
 keywords: "mckeyword"
-abstract: "This is where you but the Abstract McAbstractface."
+abstract: "This is where you put the Abstract McAbstractface."
+bibliography: ref.bib
 #linestretch: 2.0  # Uncomment to use double spacing.
 ---
 \def\tightlist{}
 
 # Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus egestas blandit faucibus. Vestibulum ac justo odio. Nam scelerisque neque nunc, condimentum consectetur elit hendrerit et. Maecenas porttitor ipsum metus, a varius lacus auctor ac. Fusce a malesuada neque. Praesent iaculis vitae lacus et tincidunt. Suspendisse et scelerisque neque, sed commodo nisl. Nam nec lorem ligula. Nullam tempor nibh eu lectus congue, sed condimentum purus scelerisque. Vivamus elementum turpis eu sapien pharetra condimentum.
+Lorem ipsum dolor sit amet, consectetur adipiscing elit [@nickerson_null_2000]. Vivamus egestas blandit faucibus. Vestibulum ac justo odio. Nam scelerisque neque nunc, condimentum consectetur elit hendrerit et. Maecenas porttitor ipsum metus, a varius lacus auctor ac. Fusce a malesuada neque. Praesent iaculis vitae lacus et tincidunt. Suspendisse et scelerisque neque, sed commodo nisl. Nam nec lorem ligula. Nullam tempor nibh eu lectus congue, sed condimentum purus scelerisque. Vivamus elementum turpis eu sapien pharetra condimentum.
 
 # Methods
 
