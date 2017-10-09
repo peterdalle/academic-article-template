@@ -14,6 +14,8 @@ Use the `make.bat` and supply an arbitrary markdown file as argument (`make arti
 - `svm-latex-anon-ms.tex` is a LaTeX template for creating anonymous PDF files.
 - `apa6.cls` is syntax for APA6 reference formatting.
 
+See example output at [article.pdf](article.pdf) and [article-anonymous.pdf](article-anonymous.pdf).
+
 ## Setup
 
 1. Install [pandoc](https://pandoc.org/).
@@ -26,11 +28,13 @@ Use the `make.bat` to create the manuscript. Supply the name of the markdown fil
 ```cmd
 make article.md
 ```
+The result is [article.pdf](article.pdf).
 
 For reviewing, use `make-anonymous.bat` to create a manuscript without author, date or any personal information:
 ```cmd
 make-anonymous article.md
 ```
+The result is [article-anonymous.pdf](article-anonymous.pdf).
 
 ## Credits
 
