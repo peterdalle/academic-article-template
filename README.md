@@ -8,6 +8,7 @@ Use the `make.bat` and supply an arbitrary markdown file as argument (`make arti
 
 ## Files
 
+- `article.md` is the markdown article.
 - `make.bat` creates a PDF article.
 - `make-anonymous.bat` creates an anonymous PDF article.
 - `ref.bib` contains the bibliography. 
